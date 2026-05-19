@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio and Resume Website">
+    <title>Portfolio | John Doe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">John<span>Doe</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">John Doe</h1>
+                <h2 class="role">Frontend Developer & UX Enthusiast</h2>
+                <p class="intro">I craft responsive, accessible, and highly aesthetic web experiences using modern technologies and semantic design principles.</p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#resume" class="btn btn-outline">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-wrapper">
+                    <!-- Profile Image -->
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="John Doe Profile Image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Personal Summary</h3>
+                    <p>I am a passionate and dedicated frontend developer with a strong foundation in building dynamic and responsive web applications. I strive to create elegant, scalable solutions that solve complex user problems while maintaining clean, maintainable code structures.</p>
+                    <br>
+                    <h3>Career Objective</h3>
+                    <p>To leverage my technical skills and creative problem-solving abilities in a challenging engineering role where I can contribute to innovative, high-impact web applications and continue to grow as a technical leader.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2019 - 2023</span>
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <h4>University of Technology</h4>
+                        <p>Graduated with Honors (GPA: 3.8/4.0). Specialized in Software Engineering, Web Technologies, and Human-Computer Interaction.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2017 - 2019</span>
+                        <h3>High School Diploma</h3>
+                        <h4>Lincoln Science Academy</h4>
+                        <p>Advanced Placement courses in Mathematics and Computer Science. President of the Coding Club.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Skills -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical & Soft Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-tasks"></i>
+                            <span>Leadership</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Mgt.</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Experience / Internship -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience & Internships</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2023 - Present</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p>Developed and maintained scalable user-facing features using modern React, semantic HTML5, and CSS grid architectures. Improved page load times by 30% through advanced asset optimization.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Summer 2022</span>
+                        <h3>Web Development Intern</h3>
+                        <h4>Creative Digital Agency</h4>
+                        <p>Assisted in building responsive landing pages and collaborating with UI/UX designers to translate Figma mockups into fully functional HTML/CSS templates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Projects -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="E-Commerce Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A full-featured analytics dashboard for e-commerce platforms with real-time data visualization capabilities.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>CSS Grid</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Finance Tracking App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Finance Tracker</h3>
+                        <p>A responsive web application allowing users to track expenses, set budgets, and achieve financial goals securely.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Portfolio Theme">
+                    </div>
+                    <div class="project-info">
+                        <h3>Minimalist CMS Theme</h3>
+                        <p>A highly customizable, fast-loading, and SEO-optimized theme designed for modern content creators.</p>
+                        <div class="tech-stack">
+                            <span>CSS Variables</span>
+                            <span>Flexbox</span>
+                            <span>SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Certifications & 8. Achievements -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="cards-grid">
+                <div class="info-card">
+                    <i class="fas fa-certificate text-gradient"></i>
+                    <h3>AWS Certified Developer</h3>
+                    <p>Amazon Web Services, 2024</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-trophy text-gradient"></i>
+                    <h3>Hackathon Winner</h3>
+                    <p>Global Tech Innovators Hackathon, 2023</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-award text-gradient"></i>
+                    <h3>Frontend Specialization</h3>
+                    <p>Coursera / Meta, 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Resume Download Section -->
+    <section id="resume" class="section cta-section">
+        <div class="container text-center">
+            <h2 class="section-title">Ready to Learn More?</h2>
+            <p>Download my comprehensive professional resume to view detailed information regarding my career progression, educational background, and complete technical skill set.</p>
+            <a href="#" class="btn btn-primary btn-large">Download PDF Resume</a>
+        </div>
+    </section>
+
+    <!-- 10. Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@johndoe.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>San Francisco, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="visually-hidden">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden">Your Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="visually-hidden">Your Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2026 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
